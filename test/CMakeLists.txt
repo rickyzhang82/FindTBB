@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 project(TestFindTBB VERSION 1.0.0 LANGUAGES CXX)
-
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 # Add FindTBB.cmake path file to the module path
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/..")
 

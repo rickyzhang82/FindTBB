@@ -4,3 +4,4 @@ test/CMakeFiles
 Makefile
 CMakeCache.txt
 cmake_install.cmake
+test/build/*
